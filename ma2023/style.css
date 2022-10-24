@@ -1,0 +1,22 @@
+/**
+Theme Name: Magnetism & Accretion 2023
+Author: SAAO
+Author URI: https://www.saao.ac.za
+Description: Astra child theme for the Magnetism & Accretion 2023 conference.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: magnetism-accretion-2023
+Template: astra
+*/
+
+.wp-block-image.size-full {
+    margin: 0 0;
+}
+
+.footer-widget-area img {
+    max-height: 91px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
