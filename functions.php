@@ -52,7 +52,8 @@ function ma2023_payment_form($userId, $name, $amount) {
     $payloadArray['jti'] = base64_encode(random_bytes (32));
     $payloadArray['iat'] = time() - 60;
     $payloadArray['exp'] = time() + 600;
-    $token = JWT::encode($payloadArray, $secretKey);
+    //$token = JWT::encode($payloadArray, $secretKey);
+    $token = "";
 
     return '
     <FORM name="Post" action="' . ma2023_get_theme_option("adumo_payment_url") . '" method="post">
