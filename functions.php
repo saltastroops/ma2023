@@ -5,7 +5,7 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package Magnetism & Accretion 2023
- * @since 1.0.1
+ * @since 1.0.2
  */
 
 /**
@@ -71,11 +71,12 @@ function ma2023_payment_form($userId, $name, $amount) {
     <!-- Additional variables for that can be populated by the merchant -->
     <input type="hidden" name="Variable1" value="Delivery">
     <input type="hidden" name="Variable2" value=""></label><br>
+    <input type="hidden" name="OrderDescription" value-"Conference Fee for Magnetisn & Accretion 2023">
     <!-- First items details for clients -->
     <input type="hidden" name="Qty1" value="1">
-    <input type="hidden" name="ItemRef1" value="MA2023">
-    <input type="hidden" name="ItemDescr1" value="Magnetism & Accretion 2023">
-    <input type="hidden" name="ItemAmount1" value="1">
+    <input type="hidden" name="ItemRef" value="MA2023">
+    <input type="hidden" name="ItemDescr" value="Magnetism & Accretion 2023">
+    <input type="hidden" name="ItemAmount" value="1">
     <!-- Additional details for the purchased items -->
     <input type="hidden" name="ShippingCost" value="0.00">
     <input type="hidden" name="Discount" value="0.00">
